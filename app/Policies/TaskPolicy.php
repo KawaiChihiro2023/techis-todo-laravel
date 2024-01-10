@@ -26,4 +26,5 @@ class TaskPolicy
     {
         return $user->id === $task->user_id;
     }
+    
 }
